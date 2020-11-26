@@ -73,9 +73,40 @@
 				</div>
 			</div>
 
+			<div class="card col-sm-6">
+				<div class="card-body">
+					<h3 class="card-title">Tetris</h3>
+					<p class="card-text">
+						Un Tetris en HTML5 et Javascript. Fonctionne sur PC et mobile. 
+						<br><br>
+						<a class="btn btn-primary col-sm" href="https://artivain.github.io/tetris" target="_blank">
+							Ouvrir
+						</a>
+						<div class="btn-group btn-block" role="group">
+							<a class="btn btn-outline-primary col-sm" href="https://github.com/Artivain/tetris/blob/main/LICENSE.md" target="_blank">
+								Licence
+							</a>
+							<a class="btn btn-outline-primary col-sm" href="https://github.com/Artivain/tetris" target="_blank">
+								Code source
+							</a>
+						</div>
+					</p>
+				</div>
+			</div>
+
 		</div>
 
 	</div>
+<br><br>
+	<footer class="page-footer">
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© <year></year>
+			<a href="https://artivain.tk">Artivain</a>
+		</div>
+		<!-- Copyright -->
+	
+	</footer>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -88,6 +119,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+	<script>
+		document.getElementsByTagName("year")[0].innerHTML = new Date().getFullYear();
+	</script>
 </body>
 
 </html>
